@@ -1,6 +1,6 @@
 from PIL import Image, ImageChops, ImageEnhance
 
-original = Image.open("imagem.jpeg")
+original = Image.open("image.jpeg")
 recompressed = original.copy()
 recompressed.save("temp.jpeg", quality=90)
 
